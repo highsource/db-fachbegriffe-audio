@@ -1,0 +1,19 @@
+{
+  "name": "alexey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cat '../Terminologie_DB Konzern_DE_EN_Definition.csv' | node convert.js > ../index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^1.11.0",
+    "head-stream": "0.0.4",
+    "slugg": "^1.2.0",
+    "through2": "^2.0.3",
+    "vhtml": "^2.1.0"
+  }
+}
